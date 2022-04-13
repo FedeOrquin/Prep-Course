@@ -1,22 +1,22 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = null;
+var nuevaString = 'Hola';
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = null;
+const nuevoNum = 2;
 
 // Crea una variable booleana:
-const nuevoBool = null;
+const nuevoBool = false;
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - null === 5;
+const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * null === 40 ;
+const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === null;
+const nuevoModulo = 21 % 5 === 1;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -211,9 +211,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  var pre="Hola ", resultado;
-  resultado= pre + nombre;
-  return resultado;
+  return 'Hola ' + nombre + '!';
 
 }
 
@@ -261,14 +259,12 @@ function esVocal(letra){
   //Escribe tu código aquí
   var resultado;
   if (String.length(letra) > 1 ) {
-    resultado='Dato incorrecto';
+    return 'Dato incorrecto';
   }else if (letra != 'a' || letra != 'e' || letra != 'i' || letra != 'o' || letra != 'u' ) {
-    resultado='Dato incorrecto';
+    return 'Dato incorrecto';
   }else{
-    resultado='Es vocal';
+    return 'Es vocal';
   }
-  return resultado;
-  
 }
 
 
