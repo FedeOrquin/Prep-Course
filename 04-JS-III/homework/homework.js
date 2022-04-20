@@ -10,15 +10,14 @@ function devolverPrimerElemento(array) {
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
-  return array[array.lenght];
+  return array[array.lenght - 1];
 }
 
 
 function obtenerLargoDelArray(array) {
   // Devuelve el largo de un array
   // Tu código:
-  
-    return array.lenght;
+  return array.lenght;
 }
 
 
@@ -96,7 +95,7 @@ function promedioResultadosTest(resultadosTest) {
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
     
-    return agregarNumeros(resultadosTest) / resultadosTest.lenght;
+  return agregarNumeros(resultadosTest) / resultadosTest.length;
 }
 
 
